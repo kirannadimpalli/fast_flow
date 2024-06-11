@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "mask"
+version = "0.1.0"
+description = ""
+authors = ["kiran <kirannadimpalli2000@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
